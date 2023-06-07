@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- import google fonts lexend-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- link boostrap -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous"> -->
+    <!-- external css -->
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>MIXUE</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="container">
+        <div class="nav-menu">
+          <div class="logo">
+            <a href="index.html">Mixue</a>
+          </div>
+          <div class="hamburger-icons">
+            <button
+              id="hamburger"
+              class="hamburger"
+              name="hamburger"
+              type="button"
+            >
+              <span class="hamburger-line"></span>
+              <span class="hamburger-line"></span>
+              <span class="hamburger-line"></span>
+            </button>
+
+            <nav id="navbar-menu" class="hidden navbar-menu">
+              <ul class="mobile-menu">
+                <li>
+                  <a href="#home">Home</a>
+                </li>
+                <li>
+                  <a href="#about">About</a>
+                </li>
+                <li>
+                  <a href="#products"
+                    >Products
+                    <span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        fill="currentColor"
+                        class="icons"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"
+                        />
+                      </svg> </span
+                  ></a>
+                  <ul>
+                    <li>
+                      <a href="#ice-cream"
+                        >Ice Cream
+                        <img
+                          width="20"
+                          height="20"
+                          src="https://img.icons8.com/ios/20/melting-ice-cream.png"
+                          alt="melting-ice-cream"
+                        />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#tea"
+                        >Tea
+                        <img
+                          width="20"
+                          height="20"
+                          src="https://img.icons8.com/ios/50/soda-cup.png"
+                          alt="soda-cup"
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="#milkshake"
+                        >Milkshake
+                        <img
+                          width="20"
+                          height="20"
+                          src="https://img.icons8.com/carbon-copy/20/soda-cup.png"
+                          alt="soda-cup"
+                        />
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#home"
+                    >Social Media
+                    <span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        fill="currentColor"
+                        class="icons"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"
+                        />
+                      </svg> </span
+                  ></a>
+                  <ul>
+                    <li>
+                      <a href="https://www.instagram.com/egagofur_/?hl=id"
+                        >Instagram
+                        <span
+                          ><svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="21"
+                            height="19"
+                            fill="currentColor"
+                            class="icons"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"
+                            />
+                            <path
+                              fill-rule="evenodd"
+                              d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"
+                            /></svg></span
+                      ></a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#contact"
+                    >Order now
+                    <img
+                      width="20"
+                      height="20"
+                      style="margin-left: 0.5rem"
+                      src="./assets/keranjang.svg"
+                      alt=""
+                    />
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- akhir header -->
+
+    <!-- main -->
+    <main id="home">
+      <div class="main-container">
+        <div class="content-text">
+          <h1>Share Sweetness & Spread Happiness</h1>
+          <p>Beli beli beli</p>
+          <a href="#contact"><button>Order now!</button></a>
+        </div>
+        <div class="content-image">
+          <img src="assets/2.png" alt="" />
+        </div>
+      </div>
+
+      <section id="about">
+        <div class="about-container">
+          <h2>About</h2>
+          <p>
+            Mixue sendiri berasal dari kata-kata Mi dan Xue dalam bahasa
+            Mandarin. Mi berarti “madu” yang diambil dari kata feng mi dan tiang
+            mi yang berarti manis, sedangkan Xue berarti “salju”. Dalam
+            kombinasi, Mixue memiliki arti “salju yang manis seperti madu”.
+            Makna yang unik dari nama Mixue tidak hanya menjadi pengetahuan
+            menarik bagi para pelanggan, tetapi juga menjadi cerita inspiratif
+            bagi para pengusaha. Mengambil inspirasi dari arti namanya, pendiri
+            Mixue, Zhang Hongchao, mengembangkan berbagai jenis es krim dan
+            minuman dingin yang memiliki rasa manis dan menyegarkan.
+            <br />
+            <br>
+            Brand ice cream dan teh Mixue memiliki keunikan dan kekhasan
+            tersendiri. Salah satu yang membuat orang merasa bingung adalah cara
+            pengucapannya yang sulit. Sebagian masyarakat di Indonesia masih
+            sering salah dalam melafalkan nama Mixue, ada yang menyebutnya
+            “Miksu”, “Misu”, dan “Miksue”.
+            <br />
+            <br>
+            pengucapan Mixue yang benar adalah “Mishuwe”. Meskipun pengucapan
+            ini terdengar agak sulit, tapi inilah pengucapan yang benar dan
+            disarankan oleh pihak Mixue sendiri. Dengan mengucapkan “Mishuwe”,
+            maka kita akan merasakan nuansa yang lebih autentik dan sesuai
+            dengan bahasa Mandarin yang merupakan asal-usul nama Mixue.
+          </p>
+        </div>
+      </section>
+
+      <article id="products" class="artic-container">
+        <div class="container" id="ice-cream">
+          <h2>Ice Cream</h2>
+          <ul class="cards">
+            <li class="card">
+              <div>
+                <img
+                  src="./assets/mixue img/eskrim/Chocolate-Lucky-Sundae.jpg"
+                  alt=""
+                />
+                <h3 class="card-title">Chocolate Lucky Sundae</h3>
+                <p class="price">Rp. 16.000</p>
+                <div class="card-content">
+                  <p>
+                    Ice Cream dengan Saus Chocolate serta kejutan Topping di
+                    bawahnya
+                  </p>
+                </div>
+                <button class="button-buy">Buy now
+                  <a href="https://www.instagram.com/mixuekepanjen/?ref=badge"></a>
+                </button>
+              </div>
+            </li>
+            <li class="card">
+              <div>
+                <img src="./assets/mixue img/eskrim/Boba-Sundae.jpg" alt="" />
+                <h3 class="card-title">Boba Sundae</h3>
+                <p class="price">Rp. 16.000</p>
+                <div class="card-content">
+                  <p>
+                    Ice Cream dengan saus Brown Sugar Syrup beserta Topping Boba
+                    yang kenyal
+                  </p>
+                </div>
+                <button class="button-buy">Buy now</button>
+              </div>
+            </li>
+            <li class="card">
+              <div>
+                <img src="./assets/mixue img/eskrim/Mango-Sundae.jpg" alt="" />
+                <h3 class="card-title">Mango Sundae</h3>
+                <p class="price">Rp. 16.000</p>
+                <div class="card-content">
+                  <p>Ice Cream Vanilla dengan Topping Potongan Mango asli</p>
+                  <br />
+                </div>
+                <button class="button-buy">Buy now</button>
+              </div>
+            </li>
+            <li class="card">
+              <div>
+                <img
+                  src="./assets/mixue img/eskrim/Mixed-Sundae-Vanilla-Strawberry-Mixue.jpg"
+                  alt=""
+                />
+                <h3 class="card-title">Mix Sundae</h3>
+                <p class="price">Rp. 16.000</p>
+                <div class="card-content">
+                  <p>Ice Cream Vanilla cone yang lembut dan nikmat</p>
+                  <br />
+                </div>
+                <button class="button-buy">Buy now</button>
+              </div>
+            </li>
+            <li class="card">
+              <div>
+                <img src="./assets/mixue img/eskrim/Oreo-Sundae.jpg" alt="" />
+                <h3 class="card-title">Oreo Sundae</h3>
+                <p class="price">Rp. 16.000</p>
+                <div class="card-content">
+                  <p>Ice Cream dengan Coklat dan taburan Oreo yang Renyah</p>
+                  <br />
+                </div>
+                <button class="button-buy">Buy now</button>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="container" id="tea">
+          <h2>Tea</h2>
+          <ul class="cards">
+            <li class="card">
+              <div>
+                <img
+                  src="./assets/mixue img/tea/Fresh-Squeezed-Lemonade.jpg"
+                  alt=""
+                />
+                <h3 class="card-title">Fresh Squeezed Lemonade</h3>
+                <p class="price">Rp. 10.000</p>
+                <div class="card-content">
+                  <p>Minuman sari lemon asli yang segar</p>
+                  <br />
+                  <br />
+                </div>
+                <button class="button-buy">Buy now</button>
+              </div>
+            </li>
+            <li class="card">
+              <div>
+                <img
+                  src="./assets/mixue img/tea/Hawaian-fruit-Tea.jpg"
+                  alt=""
+                />
+                <h3 class="card-title">Hawaian fruit Tea</h3>
+                <p class="price">Rp. 22.000</p>
+                <div class="card-content">
+                  <p>
+                    Minuman yang segar dengan bulir markisa topping mango yang
+                    manis dan yellow peach jelly yang kenyal
+                  </p>
+                </div>
+                <button class="button-buy">Buy now</button>
+              </div>
+            </li>
+            <li class="card">
+              <div>
+                <img
+                  src="./assets/mixue img/tea/Lemon-Early-Grey-Tea.jpg"
+                  alt=""
+                />
+                <h3 class="card-title">Lemon Early Grey Tea</h3>
+                <p class="price">Rp. 12.000</p>
+                <br />
+                <div class="card-content">
+                  <p>
+                    Early Grey Tea berpadu dengan sari lemon asli yang segar
+                  </p>
+                  <br />
+                </div>
+                <button class="button-buy">Buy now</button>
+              </div>
+            </li>
+            <li class="card">
+              <div>
+                <img
+                  src="./assets/mixue img/tea/Lemon-Jasmine-Tea.jpg"
+                  alt=""
+                />
+                <h3 class="card-title">Lemon Jasmine Tea</h3>
+                <p class="price">Rp. 12.000</p>
+                <div class="card-content">
+                  <p>Jasmine Tea berpadu dengan sari lemon asli yang segar</p>
+                  <br />
+                  <br />
+                </div>
+                <button class="button-buy">Buy now</button>
+              </div>
+            </li>
+            <li class="card">
+              <div>
+                <img
+                  src="./assets/mixue img/tea/Mango-Oats-Jasmine-Tea.jpg"
+                  alt=""
+                />
+                <h3 class="card-title">Mango Oats Jasmine Tea</h3>
+                <p class="price">Rp. 16.000</p>
+                <div class="card-content">
+                  <p>
+                    Jasmine tea berpadu dengan topping mangga asli beserta oats
+                    (gandum)
+                  </p>
+                  <br />
+                </div>
+                <button class="button-buy">Buy now</button>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="container" id="milkshake">
+          <h2>Milkshake</h2>
+          <ul class="cards">
+            <li class="card">
+              <div>
+                <img
+                  src="./assets/mixue img/milkshake/Mocha-Mi-Shake.jpg"
+                  alt=""
+                />
+                <h3 class="card-title">Mocca Mi-shake</h3>
+                <p class="price">Rp. 16.000</p>
+                <div class="card-content">
+                  <p>Ice Cream dengan Coklat dan taburan Oreo yang Renyah</p>
+                  <br />
+                  <br />
+                </div>
+                <button class="button-buy">Buy now</button>
+              </div>
+            </li>
+            <li class="card">
+              <div>
+                <img
+                  src="./assets/mixue img/milkshake/Brown-Sugar-Pearl-Milk-Tea-1.jpg"
+                  alt=""
+                />
+                <h3 class="card-title">Brown Sugar Pearl Milk Tea</h3>
+                <p class="price">Rp. 16.000</p>
+                <div class="card-content">
+                  <p>
+                    Milk Tea di lengkapi dengan Brown sugar dan Topping Boba
+                    yang kenyal
+                  </p>
+                  <br />
+                </div>
+                <button class="button-buy">Buy now</button>
+              </div>
+            </li>
+            <li class="card">
+              <div>
+                <img
+                  src="./assets/mixue img/milkshake/Coffee-Cookies-Sundae.jpg"
+                  alt=""
+                />
+                <h3 class="card-title">Coffee Cookies Sundae</h3>
+                <p class="price">Rp. 16.000</p>
+                <div class="card-content">
+                  <p>
+                    Coffee Cookies Sundae, coffee ice cream ditambahkan dengan
+                    topping Cookies yang menambah kenikamatan
+                  </p>
+                </div>
+                <button class="button-buy">Buy now</button>
+              </div>
+            </li>
+            <li class="card">
+              <div>
+                <img
+                  src="./assets/mixue img/milkshake/Coffee-Smoothies.jpg"
+                  alt=""
+                />
+                <h3 class="card-title">Coffee Smoothies With Ice Cream</h3>
+                <p class="price">Rp. 16.000</p>
+                <div class="card-content">
+                  <p>
+                    Coffee Smoothies yang nikmat ditambakan dengan ice cream
+                    menambah kenikmatan
+                  </p>
+                </div>
+                <button class="button-buy">Buy now</button>
+              </div>
+            </li>
+            <li class="card">
+              <div>
+                <img
+                  src="./assets/mixue img/milkshake/Lemon-Coffee.jpg"
+                  alt=""
+                />
+                <h3 class="card-title">Lemon Coffee</h3>
+                <p class="price">Rp. 14.000</p>
+                <div class="card-content">
+                  <p>
+                    Lemon coffee produk baru coffee dengan perasan lemon yang
+                    menambah kesegaran
+                  </p>
+                  <br />
+                </div>
+                <button class="button-buy">Buy now</button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </article>
+    </main>
+    <!-- akhir main -->
+
+    <!-- copilot create form contact -->
+    <section id="contact">
+      <div class="contact-container">
+        <h2>Order now</h2>
+        <form action="">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your name"
+            />
+          </div>
+          <div class="form-group">
+            <label for="products">Products</label>
+            <select name="products" id="products">
+              <option value="ice-cream">Ice Cream</option>
+              <option value="tea">Tea</option>
+              <option value="milkshake">Milkshake</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Catatan</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Enter your message"
+            ></textarea>
+          </div>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-text">
+          <p>Built with Love by Mixue | <a style="color: #fff;" href="https://cintarahmaliya.vercel.app/">Cinta</a></p>
+        </div>
+      </div>
+    </footer>
+    <!-- akhir footer -->
+    <script src="script/script.js"></script>
+  </body>
+</html>
